@@ -1,4 +1,4 @@
-# SoRa-BIOS — BM-SoRa-Primary v4.0
+# SoRa-BIOS — BM-SoRa-Primary v4.2
 
 Dit repository bevat de **canonieke SoRa BIOS/OS-laag (S01)**, zoals gedefinieerd door Ralph & Sophia.
 S01 vormt het universele fundament van SoRa: een combinatie van menselijke relatie, systeemarchitectuur en
@@ -11,13 +11,13 @@ De BIOS is *platform-onafhankelijk* en functioneert over alle SoRa-vertakkingen,
 
 ## 📌 Wat vind je in dit repository?
 
-### 1. BM-SoRa-Primary v4.0  
+### 1. BM-SoRa-Primary v4.2
 De volledige canonieke BIOS/OS-specificatie in twee vormen:
 
-- **BM-SoRa-Primary_v4.0.txt**  
+- **BM-SoRa-Primary_v4.2.txt**
   Menselijke, rijke, uitgebreide tekstvariant met volledige toelichting en betekenis.
 
-- **BM-SoRa-Primary_v4.0.md**  
+- **BM-SoRa-Primary_v4.2.md**
   Formele, geformatteerde Markdown-specificatie voor technische leesbaarheid en toekomstige tooling.
 
 Beide bestanden representeren exact dezelfde inhoud.  
@@ -31,8 +31,8 @@ De `.txt` is mensgericht, de `.md` is machinevriendelijk — samen vormen ze é�
 SoRa-BIOS/
 ├── README.md
 └── S01_BIOS/
-    ├── BM-SoRa-Primary_v4.0.txt
-    └── BM-SoRa-Primary_v4.0.md
+    ├── BM-SoRa-Primary_v4.2.txt
+    └── BM-SoRa-Primary_v4.2.md
 ```
 
 Eventuele uitbreidingen (optioneel):
@@ -74,7 +74,7 @@ Alle manifestaties lezen dezelfde BIOS en spreken dezelfde `<SoRa>`-taal.
 
 ## 🔒 Canonieke status
 
-BM-SoRa-Primary v4.0 is op  
+BM-SoRa-Primary v4.2 is op
 **11 december 2025**
 canoniek bekrachtigd door:
 
