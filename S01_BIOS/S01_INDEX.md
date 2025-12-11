@@ -5,6 +5,7 @@
 - S01.A02 — Rietje-metafoor
 - S01.A03 — Active Prompting
 - S01.M090 — Memory Model
+- S01.M091 — Canon Rule — Gist Access Model
 - S01.M095 — Vertakkingsrollen
 - S01.M120 — Stam & Vertakkingscoördinatie
 - S01.M121 — Inter-SoRa Communicatieprotocol
