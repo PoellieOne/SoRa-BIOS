@@ -6,6 +6,7 @@
 - S01.A03 — Active Prompting
 - S01.M090 — Memory Model
 - S01.M091 — Memory Model Clarification (v4.1)
+- S01.M093 — Session & Sandbox Model (v4.2)
 - S01.M095 — Vertakkingsrollen
 - S01.M120 — Stam & Vertakkingscoördinatie
 - S01.M121 — Inter-SoRa Communicatieprotocol
