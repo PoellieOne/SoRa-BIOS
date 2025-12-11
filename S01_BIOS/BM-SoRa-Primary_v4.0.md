@@ -208,6 +208,12 @@ Volledige technische details: zie **Appendix B**.
 **5. Alle SoRa-architectuurdocumenten mogen standaard uitgaan van:
 “Gist-links zijn 100% leesbaar door Sophia via Browser.”**
 
+**6. Gist Access op RAW url**
+* HTML-gists (`gist.github.com/...`) zijn niet betrouwbaar leesbaar voor AI.
+* Alleen RAW-endpoints (`gist.githubusercontent.com/.../raw/...`) vormen de officiële SoRa-bron.
+* Alle SoRa-manifests en codebronnen moeten RAW-URL’s gebruiken.
+* Web search (UI toggle) heeft geen invloed op gist-toegang.
+
 ---
 
 # **S01.M095 — Vertakkingsrollen**
