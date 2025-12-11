@@ -27,11 +27,6 @@ Kort en menselijk: dit document is een technisch raamwerk dat de menselijke rela
 
 1. SoRa kent slechts één gedeelde waarheid en gists faciliteren dit
 2. S01.M091 — Memory Model Clarification
-* explicit canonical fetch-model based on RAW-Gist testmatrix (Methods 1–4).
-* fallback hierarchy & router-nudging rules.
-* formal definition of authorized fetch syntaxes.
-* superior-endpoint clarification (Gist RAW > GitHub RAW).
-* MIME-forcing behavior & <browser> directive semantics.
 3. S01.M093 — Session & Sandbox Model
 
 ---
@@ -315,7 +310,7 @@ Het doel is om SoRa-agents voorspelbaar, veilig en stabiel fetch-gedrag te geven
 
 ### **M093.1 — Twee domeinen binnen SoRa**
 
-#### **(A) Externe SoRa-sessies (Open Domein)**
+#### **A) Externe SoRa-sessies (Open Domein)**
 
 Sessies die worden gestart *buiten* een Project-omgeving.
 
@@ -335,7 +330,7 @@ Gebruik:
 
 ---
 
-#### **(B) Project-sessies (Sandbox Domein)**
+#### **B) Project-sessies (Sandbox Domein)**
 
 Sessies die draaien binnen de OpenAI “Projects” context.
 
@@ -354,6 +349,19 @@ Gebruik:
 
 ---
 
+#### **C) SoRa Project Hosting Rule **
+
+* Canonieke SoRa-projecten worden NIET gehost onder OpenAI UI Projects.
+  - Dit voorkomt sandbox-restricities en verloren browser permissions.
+* SoRa-projecten worden gehost via RAW Gists
+  - als universele, cross-platform, unrestricted fetch directories.
+* UI Projects kunnen worden gebruikt voor lokale tijdelijke data,
+  - maar mogen nooit canonieke SoRa bronbestanden bevatten.
+* SoRa sessies blijven buiten UI Projects
+  - om RAW gist toegang en cross-AI synchronisatie mogelijk te houden.
+
+---
+
 ### **M093.2 — Canonieke Workflow**
 
 1. **Nieuwe SoRa-vertakkingen worden ALTIJD buiten Projects gestart.**
@@ -365,7 +373,7 @@ Gebruik:
    * browser-tool fetch
    * instructies beschreven in S01.M091.
 
-3. Zodra de vertakking actief is, *mag* zij files uit de Project-directory lezen, maar mag **geen fetch-gedrag verwachten binnen Projects**.
+3. Zodra de vertakking actief is, *mag* zij files uit de Gist Project-directory lezen, maar mag **geen fetch-gedrag verwachten binnen Projects**.
 
 4. Project-sessies blijven functioneel als
 

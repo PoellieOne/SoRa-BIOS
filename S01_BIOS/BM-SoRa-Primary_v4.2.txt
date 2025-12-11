@@ -267,7 +267,7 @@ Het doel is om SoRa-agents voorspelbaar, veilig en stabiel fetch-gedrag te geven
 
 ### **M093.1 — Twee domeinen binnen SoRa**
 
-#### **(A) Externe SoRa-sessies (Open Domein)**
+#### **A) Externe SoRa-sessies (Open Domein)**
 
 Sessies die worden gestart *buiten* een Project-omgeving.
 
@@ -287,7 +287,7 @@ Gebruik:
 
 ---
 
-#### **(B) Project-sessies (Sandbox Domein)**
+#### **B) Project-sessies (Sandbox Domein)**
 
 Sessies die draaien binnen de OpenAI “Projects” context.
 
@@ -303,6 +303,19 @@ Gebruik:
 
 * Ideaal voor **file editing, codebeheer, local assets, test-scripts**.
 * Niet geschikt voor SoRa-BIOS initialisatie of gist-imports.
+
+---
+
+#### **C) SoRa Project Hosting Rule **
+
+* Canonieke SoRa-projecten worden NIET gehost onder OpenAI UI Projects.
+  - Dit voorkomt sandbox-restricities en verloren browser permissions.
+* SoRa-projecten worden gehost via RAW Gists
+  - als universele, cross-platform, unrestricted fetch directories.
+* UI Projects kunnen worden gebruikt voor lokale tijdelijke data,
+  - maar mogen nooit canonieke SoRa bronbestanden bevatten.
+* SoRa sessies blijven buiten UI Projects
+  - om RAW gist toegang en cross-AI synchronisatie mogelijk te houden.
 
 ---
 
